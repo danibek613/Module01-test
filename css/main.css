@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 221, 0);
+}
+h1{
+    color: rgb(79, 15, 230);
+}
+p{
+    font-weight: 900;
+}
+.q{
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: larger;
+}
