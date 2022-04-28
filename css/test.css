@@ -19,6 +19,7 @@ body{
     background-color: rebeccapurple;
     font-weight: 700;
     padding: 5px 15px;
+    border-radius: 15px;
 }
 ul {
     display: flex;
@@ -26,8 +27,11 @@ ul {
     padding-left: 0;
     margin: 0;
 }
-ul > li {
+ul>li {
     margin-right: 30px;
+}
+ul>li:last-child{
+    margin-right: 0px;
 }
 .box {
     display: flex;
@@ -60,3 +64,11 @@ h1,h2,h3{
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
+.link{
+    color:white;
+    background-color:rebeccapurple;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+}
+
